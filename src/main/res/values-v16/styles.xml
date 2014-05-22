@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="title_text" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="sectionHeader" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:drawableBottom">@drawable/section_header</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#4C8FC7</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="listItem" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

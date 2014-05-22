@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionbarTabStyle</item>
+    </style>
+
+    <style name="ActionbarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">#4C8FC7</item>
+        <item name="android:titleTextStyle">@style/title_text</item>
+    </style>
+
+    <style name="ActionbarTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:actionBarTabTextStyle">@style/title_text</item>
+    </style>
+</resources>

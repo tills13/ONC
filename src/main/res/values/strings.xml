@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Neptune</string>
+    <string name="title_map">map</string>
+    <string name="title_devices">devices</string>
+    <string name="title_media">media</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">NEPTUNE Canada is an 800km long cabled seafloor observatory off the west coast of Vancouver Island, British Columbia. The network extends across the Juan de Fuca plate and gathers live data from a diverse collection of instruments deployed in the ocean.</string>
+
+</resources>

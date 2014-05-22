@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Info"
+        style="@style/sectionHeader"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/location"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/latitude"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/longitude"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/depth"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/voltage"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/update"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Temperatures"
+        style="@style/sectionHeader"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/icetemp50"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/icetemp100"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/icetem150"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/icetemp200"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/airtemp"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+            <TextView
+                android:id="@+id/surfacetemp"
+                style="@style/listItem"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+
+</LinearLayout>
